@@ -1,0 +1,12 @@
+Tasks: *
+====== *
+-Initiate the 2 files (if theirs exists - delete and re-create them). *
+-Keep the logic of random search key. *
+-Keep the process and the paging. *
+-Keep the filter URL. *
+-When invalid email address (after try fix logic) - Log to a TXT file. *
+-Do the fix email address domain logic. *
+-Keep the maximum characters source validation - Canccelled. *
+-After insert to the database, log to a TXT file. *
+-The status need to be always on the screen: *
+-Time: 00:45:34 | Links: 3435 | Total: 3945 | Invalid: 34 | Key: *

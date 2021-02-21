@@ -1,0 +1,8 @@
+Tasks:
+======
+-Set up GOALS (run until get to 1000 email address, for example).
+-Add logic to log goal precentage.
+-Add logic to skip process if no email addresses found.
+-Add logic to support the bing paging.
+-Add more search engines.
+-Do all the ToDo points.
