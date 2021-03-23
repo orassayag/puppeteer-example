@@ -1,12 +1,18 @@
-Tasks: *
-====== *
--Initiate the 2 files (if theirs exists - delete and re-create them). *
--Keep the logic of random search key. *
+Complete + canceled tasks:
+==========================
+-Set up GOALS (run until get to 1000 email addresses, for example).
+-Add logic to log goal percentage.
+-Add logic to skip the process if no email addresses are found.
+-Add logic to support the bing paging.
+-Add more search engines.
+-Do all the ToDo points.
+-Initiate the 2 files (if theirs exists - delete and recreate them). *
+-Keep the logic of random search keys. *
 -Keep the process and the paging. *
 -Keep the filter URL. *
--When invalid email address (after try fix logic) - Log to a TXT file. *
--Do the fix email address domain logic. *
--Keep the maximum characters source validation - Canccelled. *
--After insert to the database, log to a TXT file. *
+-When invalid email address (after trying to fix logic) - Log to a TXT file. *
+-Do fix the email address domain logic. *
+-Keep the maximum characters source validation - Canceled. *
+-After inserting the database, log to a TXT file. *
 -The status need to be always on the screen: *
 -Time: 00:45:34 | Links: 3435 | Total: 3945 | Invalid: 34 | Key: *

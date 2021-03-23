@@ -1,8 +1,16 @@
-Tasks:
-======
--Set up GOALS (run until get to 1000 email address, for example).
--Add logic to log goal precentage.
--Add logic to skip process if no email addresses found.
--Add logic to support the bing paging.
--Add more search engines.
--Do all the ToDo points.
+=========
+REMEMBER!
+=========
+Each time you change the logic / update NPM package version, do the following steps:
+1. Perform a backup before any change has been made, by running on terminal 'npm run backup' or manually to the backups directory.
+2. After the change, check that everything works OK.
+3. Keep the maintenance - Every change you do - Make sure to update in this document if needed.
+4. Do commit + push on Git project repository.
+5. Keep the backup update - Every change you do - Update in iOmega (each couple of days do backup there).
+=================================
+
+ToDo tasks:
+===========
+
+Complete + canceled tasks:
+==========================

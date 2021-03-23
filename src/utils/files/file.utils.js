@@ -8,7 +8,7 @@ class FileUtils {
         return await fs.readFile(targetPath, 'utf-8');
     }
 
-    // This method check if a receive target path is exist.
+    // This method validates if a receive target path exists.
     async isPathExists(targetPath) {
         // Check if the path parameter was received.
         if (!targetPath) {
@@ -21,7 +21,7 @@ class FileUtils {
         }
     }
 
-    // This method check if a receive target path is accessible.
+    // This method validates if a receive target path is accessible.
     async isPathAccessible(targetPath) {
         // Verify that the path exists.
         await this.isPathExists(targetPath);
@@ -39,7 +39,7 @@ class FileUtils {
         }
     }
 
-    // This method remove all files from a given target path.
+    // This method removes all files from a given target path.
     async emptyDirectory(targetPath) {
         // Verify that the path exists.
         await this.isPathExists(targetPath);
@@ -48,7 +48,7 @@ class FileUtils {
         await fs.emptyDir(targetPath);
     }
 
-    // This method return all the files in a given target path.
+    // This method returns all the files in a given target path.
     async getDirectoryFiles(targetPath) {
         // Verify that the path exists.
         await this.isPathExists(targetPath);
@@ -57,7 +57,7 @@ class FileUtils {
         return await fs.readdir(targetPath);
     }
 
-    // This method return the file size.
+    // This method returns the file size.
     async getFileSize(targetPath) {
         // Verify that the path exists.
         await this.isPathExists(targetPath);

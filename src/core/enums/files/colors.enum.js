@@ -1,6 +1,6 @@
 const enumUtils = require('../enum.utils');
 
-// This enum define the possible colors for the table log.
+// This enum defines the possible colors for the table log.
 const Color = enumUtils.createEnum([
     ['Reset', '\x1b[0m'],
     ['Bright', '\x1b[1m'],

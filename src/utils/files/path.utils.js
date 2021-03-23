@@ -9,7 +9,7 @@ class PathUtils {
         return path.parse(__dirname).root;
     }
 
-    // This method check if a given file is in a given extension.
+    // This method validates if a given file is in a given extension.
     isTypeFile(data) {
         const { fileName, fileExtension } = data;
 
@@ -33,7 +33,7 @@ class PathUtils {
         return extension.toLowerCase() === `.${fileExtension.toLowerCase()}`;
     }
 
-    // This method return the file name without the extension.
+    // This method returns the file name without the extension.
     getFileCleanName(fileName) {
         // Check if the fileName parameter was received.
         if (!fileName) {
