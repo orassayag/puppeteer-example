@@ -7,7 +7,7 @@ Built in January 2019. Simple example to demonstrate crawling sites with Node.js
 Clone the application to your computer.
 Steps to view the solution:
 1. Open server application on IDE (I use VSCode).
-2. Terminal: npm i
+2. In the terminal: npm i
 3. In the terminal: npm start
 
 Happy testing! :)

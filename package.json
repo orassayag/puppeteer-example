@@ -1,8 +1,12 @@
 {
   "name": "puppeteer-example",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/puppeteer-example.git"
+  },
   "keywords": [
     "emails",
     "email addresses"

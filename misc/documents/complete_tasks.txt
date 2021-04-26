@@ -1,11 +1,11 @@
 Complete + canceled tasks:
 ==========================
--Set up GOALS (run until get to 1000 email addresses, for example).
--Add logic to log goal percentage.
--Add logic to skip the process if no email addresses are found.
--Add logic to support the bing paging.
--Add more search engines.
--Do all the ToDo points.
+-Set up GOALS (run until get to 1000 email addresses, for example). *
+-Add logic to log goal percentage. *
+-Add logic to skip the process if no email addresses are found. *
+-Add logic to support the bing paging. *
+-Add more search engines. *
+-Do all the ToDo points. *
 -Initiate the 2 files (if theirs exists - delete and recreate them). *
 -Keep the logic of random search keys. *
 -Keep the process and the paging. *
