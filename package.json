@@ -2,16 +2,26 @@
   "name": "puppeteer-example",
   "version": "1.0.0",
   "private": false,
-  "description": "",
+  "description": "A Node.js web scraping application using Puppeteer to extract and validate email addresses from search engine results, with MongoDB storage and Hebrew search support",
   "repository": {
     "type": "git",
     "url": "git://github.com/orassayag/puppeteer-example.git"
   },
   "keywords": [
-    "emails",
-    "email addresses"
+    "puppeteer",
+    "web-scraping",
+    "email-extraction",
+    "mongodb",
+    "crawler",
+    "scraper",
+    "nodejs",
+    "automation",
+    "hebrew",
+    "job-search",
+    "email-addresses",
+    "data-mining"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "author": "Or Assayag <orassayag@gmail.com>",
   "contributors": [
     {
